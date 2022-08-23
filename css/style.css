@@ -1,0 +1,412 @@
+@media (max-width: 320px) {
+  body {
+    margin: 0px;
+    width: auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 88px;
+    background-color: white;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 509px;
+  }
+
+  .header__palka-two,
+  .header__call,
+  .header__chat,
+  .header__profile {
+    display: none;
+  }
+
+  .title {
+    display: flex;
+    margin: 0px;
+  }
+  .blue {
+    margin-right: 12px;
+  }
+
+  .swipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7e7e82;
+  }
+
+  .repair__text {
+    display: none;
+  }
+
+  .checkstatus__text {
+    display: none;
+  }
+
+  .reviews {
+    display: none;
+  }
+
+  .swipe_active {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -4;
+    padding: 8px 9px 8px 16px;
+    border: solid 1px #b8ffec;
+    background-color: white;
+  }
+
+  .swipe__item-1 {
+    display: none;
+  }
+
+  .swipe__item-2 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+
+  .swipe__item-3 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+  .swipe__item-4 {
+    display: none;
+  }
+  .swipe__item-5 {
+    display: none;
+  }
+  .swipe__item-6 {
+    display: none;
+  }
+
+  .massege__first {
+    font-family: TT Lakes;
+    font-size: 14px;
+    width: 288px;
+    height: 90px;
+    margin-left: 16px;
+  }
+
+  .massege__second {
+    display: none;
+  }
+
+  .next {
+    display: flex;
+    font-size: 14px;
+  }
+
+  .next__strela {
+    margin-right: 16px;
+    margin-left: 24px;
+  }
+
+  .photo {
+    width: 320px;
+    height: auto;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  body {
+    margin: 0px;
+    width: auto;
+    background-color: #f8f8f8;
+  }
+
+  .text {
+    margin-right: 15px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 88px;
+    width: 768px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .header__menu {
+    order: -7;
+  }
+
+  .header__palka {
+    order: -6;
+  }
+
+  .header__logo {
+    order: -5;
+  }
+
+  .header__call {
+    margin-left: 250px;
+    order: -4;
+  }
+
+  .header__chat {
+    order: -3;
+  }
+
+  .header__profile {
+    order: -2;
+  }
+
+  .header__palka-two {
+    order: -1;
+  }
+
+  .title {
+    display: flex;
+  }
+
+  .blue {
+    margin-right: 12px;
+  }
+
+  .repair__text {
+    display: none;
+  }
+
+  .checkstatus__text {
+    display: none;
+  }
+
+  .swipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7e7e82;
+  }
+
+  .reviews {
+    display: none;
+  }
+
+  .swipe_active {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -4;
+    padding: 8px 9px 8px 16px;
+    border: solid 1px #b8ffec;
+    background-color: white;
+  }
+
+  .swipe__item-1 {
+    display: none;
+  }
+
+  .swipe__item-2 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+
+  .swipe__item-3 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+  .swipe__item-4 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+  .swipe__item-5 {
+    display: none;
+  }
+  .swipe__item-6 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+
+  .next {
+    display: flex;
+    font-size: 14px;
+  }
+
+  .next__strela {
+    margin-right: 16px;
+    margin-left: 24px;
+  }
+
+  .photo {
+    width: auto;
+    height: auto;
+  }
+
+  .massege {
+    width: 312px;
+    height: 160px;
+    margin-left: 24px;
+    margin-right: 48px;
+    font-family: TT Lakes;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  body {
+    margin: 0px;
+    padding: 25px;
+    width: auto;
+    background: #f8f8f8;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+
+  .title {
+    order: -1;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    font-family: TT Lakes;
+    font-size: 28px;
+  }
+
+  .max-with {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 42px;
+  }
+
+  .repair {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+  }
+
+  .checkstatus {
+    justify-content: space-between;
+    width: 190px;
+    display: flex;
+  }
+
+  .repair__text {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -1;
+  }
+
+  .checkstatus__text {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -1;
+    margin-left: 32px;
+  }
+
+  .header__menu,
+  .header__palka,
+  .header__logo,
+  .header__call,
+  .header__chat,
+  .header__profile,
+  .header__palka-two {
+    display: none;
+  }
+
+  .blue {
+    margin-right: 12px;
+  }
+
+  .swipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7e7e82;
+  }
+
+  .reviews {
+    color: #7e7e82;
+    font-family: TT Lakes;
+    font-size: 16px;
+    margin-left: 56px;
+  }
+
+  .swipe_active {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -4;
+    padding: 8px 9px 8px 16px;
+    border: solid 1px #b8ffec;
+    background-color: white;
+  }
+
+  .swipe__item-1 {
+    font-family: TT Lakes;
+    font-size: 16px;
+    margin-left: 16px;
+    order: -5;
+  }
+
+  .swipe__item-2 {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -3;
+  }
+
+  .swipe__item-3 {
+    display: none;
+  }
+  .swipe__item-4 {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -3;
+  }
+  .swipe__item-5 {
+    font-family: TT Lakes;
+    font-size: 16px;
+    order: -2;
+  }
+  .swipe__item-6 {
+    font-family: TT Lakes;
+    font-size: 16px;
+  }
+
+  .next {
+    display: flex;
+    font-size: 14px;
+  }
+
+  .next__strela {
+    margin-right: 16px;
+    margin-left: 24px;
+  }
+
+  .photo {
+    width: auto;
+    height: auto;
+  }
+
+  .massege {
+    width: 490px;
+    height: auto;
+    margin-left: 24px;
+    font-family: TT Lakes;
+    font-size: 14px;
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
