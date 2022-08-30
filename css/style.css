@@ -169,6 +169,10 @@
     width: 100%;
     height: auto;
   }
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1119px) {
@@ -373,6 +377,10 @@
   .photo {
     width: 100%;
     height: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
   }
 }
 
@@ -581,5 +589,9 @@
     justify-content: space-between;
     margin-right: 30px;
     margin-left: 35px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
   }
 }
