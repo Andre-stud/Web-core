@@ -1,0 +1,124 @@
+body {
+  width: 320px;
+  height: 1024px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2);
+}
+
+.header {
+  display: flex;
+  margin-bottom: 57px;
+}
+
+.header__button {
+  margin: 23px 17px 0px 24px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+}
+
+.header__logo {
+  margin-top: 19px;
+  height: 51px;
+}
+
+.header__search {
+  margin: 23px 24px 0px 78px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin-bottom: 268px;
+}
+
+ul li {
+  margin-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 24px;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.active a {
+  border-left: 4px solid #41f6d7;
+  color: #7e7e82;
+  padding-left: 24px;
+  margin-left: 0;
+}
+
+.footer-button {
+  display: flex;
+  margin-top: -32px;
+  margin-bottom: 16px;
+}
+
+.footer-button__call {
+  margin-left: 24px;
+  margin-right: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.footer-button__chat {
+  margin-right: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.footer-button__profile {
+  margin-right: 144px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.link {
+  display: block;
+  margin-left: 24px;
+  margin-right: 190px;
+  margin-bottom: 12px;
+}
+
+.phone {
+  display: block;
+  font-family: TT Lakes;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 24px;
+  margin-bottom: 40px;
+}
+
+.lang {
+  display: flex;
+  margin-left: 24px;
+}
+
+button {
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+span {
+  font-weight: medium;
+  font-size: 16px;
+}
+
+button .active {
+  color: #7e7e82;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
