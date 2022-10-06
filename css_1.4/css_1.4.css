@@ -9,51 +9,49 @@ body {
 .header {
   display: flex;
   margin-bottom: 57px;
+  padding-top: 23px;
 }
 
 .header__button {
-  margin: 23px 17px 0px 24px;
-  border: none;
-  background-color: rgba(255, 255, 255, 1);
-  height: 40px;
-  width: 40px;
-  padding: 0px;
+  margin-right: 17px;
+  margin-left: 24px;
 }
 
 .header__logo {
-  margin-top: 19px;
+  margin-top: -4px;
   height: 51px;
 }
 
 .header__search {
-  margin: 23px 24px 0px 78px;
-  border: none;
-  background-color: rgba(255, 255, 255, 1);
-  height: 40px;
-  width: 40px;
-  padding: 0px;
+  margin-right: 24px;
+  margin-left: 78px;
 }
 
-ul {
+.nav ul {
   padding: 0px;
   margin-bottom: 268px;
 }
 
-ul li {
+.nav .nav__link {
   margin-bottom: 32px;
+  list-style-type: none;
 }
 
-a {
+.nav__link .link {
   text-decoration: none;
   color: black;
   margin-left: 24px;
   font-family: TT Lakes;
   font-size: 16px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
-.active a {
+.link:hover {
+  text-decoration: underline;
+}
+
+.active .link {
   border-left: 4px solid #41f6d7;
   color: #7e7e82;
   padding-left: 24px;
@@ -85,11 +83,14 @@ a {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.link {
+footer .link {
   display: block;
   margin-left: 24px;
   margin-right: 190px;
   margin-bottom: 12px;
+  text-decoration: none;
+  color: black;
+  font-family: TT Lakes;
 }
 
 .phone {
@@ -106,19 +107,29 @@ a {
   margin-left: 24px;
 }
 
-button {
+.lang__button {
   border: none;
   background-color: rgba(255, 255, 255, 1);
 }
-span {
-  font-weight: medium;
-  font-size: 16px;
+
+.lang__button:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
-button .active {
+.active {
   color: #7e7e82;
 }
 
 .button:hover {
   opacity: 0.7;
+}
+
+.button {
+  background-color: rgba(255, 62, 121, 1);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding-top: 4px;
+  border: none;
 }
