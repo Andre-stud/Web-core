@@ -1,0 +1,12 @@
+@media (min-width: 320px) {
+  .name-cards {
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px;
+    color: rgba(126, 126, 130, 1);
+    background: linear-gradient(270deg, #ffffff 0%, #f8f8f8 98.61%);
+    margin-top: 0px;
+    border-top: 1px solid #d9fff5;
+  }
+}

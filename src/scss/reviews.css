@@ -1,0 +1,13 @@
+@media (min-width: 320px) {
+  .reviews {
+    display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+  .reviews {
+    display: initial;
+    margin-left: 58px;
+    margin-bottom: 10px;
+  }
+}

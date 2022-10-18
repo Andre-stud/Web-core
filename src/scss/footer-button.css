@@ -1,0 +1,21 @@
+.footer-button {
+  display: flex;
+  margin-top: -32px;
+  margin-bottom: 16px;
+}
+
+.footer-button__call {
+  margin-left: 24px;
+  margin-right: 16px;
+  border: none;
+}
+
+.footer-button__chat {
+  margin-right: 16px;
+  border: none;
+}
+
+.footer-button__profile {
+  margin-right: 144px;
+  border: none;
+}

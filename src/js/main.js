@@ -1,0 +1,10 @@
+import "../index.html";
+import "../scss/main.scss";
+import "./swiperMobile";
+import "./buttonNextRead.js";
+import "./buttonShow.js";
+import "./buttonShowTypeEquipment.js";
+import "./modalRequestCall.js";
+import "./modalFeedback.js";
+import "./mainMenu.js";
+import "../fonts/stylesheet.scss";

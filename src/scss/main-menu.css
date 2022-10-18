@@ -1,0 +1,46 @@
+@media (min-width: 320px) {
+  .main-menu {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    float: left;
+    position: absolute;
+    transition: all 1s ease;
+    z-index: 15;
+    left: -350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+  }
+}
+
+@media (min-width: 1366px) {
+  .main-menu {
+    width: 320px;
+    height: 1024px;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    position: static;
+  }
+}
+
+.main-menu {
+  height: 1925px;
+}
+
+.modal-menu {
+  transition: all 1s ease;
+  background-color: white;
+  transform: translateX(350px);
+}
+
+.blure {
+  transition: all 1s ease;
+  opacity: 0.1;
+  background-color: white;
+}

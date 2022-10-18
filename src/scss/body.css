@@ -1,0 +1,9 @@
+@media (min-width: 320px) {
+  body {
+    font-family: TT Lakes;
+    margin: 0px;
+    width: auto;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+  }
+}

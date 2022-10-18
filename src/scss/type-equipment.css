@@ -1,0 +1,64 @@
+@media (min-width: 320px) {
+  .cards-type-equipment {
+    display: flex;
+    padding-left: 0px;
+  }
+
+  .card-type-equipment .button-card {
+    position: absolute;
+    top: 104px;
+    right: 16px;
+  }
+
+  .card-type-equipment span {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-weight: 500;
+  }
+
+  .card-type-equipment {
+    display: flex;
+    min-width: 240px;
+    height: 160px;
+    margin-bottom: 36px;
+    margin-left: 16px;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-type-equipment {
+    min-width: 224px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+  }
+
+  .cards-type-equipment {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-type-equipment {
+    min-width: 20%;
+  }
+}
+
+.button-card__icon:hover {
+  background: #f2f2f2;
+  border-radius: 50%;
+}
+
+.card-show {
+  transition: all 1s;
+  transform: translateY(0px);
+}
+
+.button-type-equipment__text {
+  font-family: TT Lakes;
+  font-size: 16px;
+}
