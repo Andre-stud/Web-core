@@ -2,7 +2,7 @@
   .button-next-read {
     display: flex;
     border: none;
-    background-color: #f8f8f8;
+    background-color: $grey;
     max-width: 170px;
   }
 
@@ -27,6 +27,6 @@
 }
 
 .button-next-read:hover {
-  background-color: white;
+  background-color: $white;
   border-radius: 10px;
 }

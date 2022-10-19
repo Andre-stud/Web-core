@@ -1,13 +1,13 @@
 @media (min-width: 320px) {
   .footer-text {
     margin-top: 57px;
-    color: rgba(126, 126, 130, 1);
+    color: $light-gray;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
-    border-top: 1px solid rgba(217, 255, 245, 1);
+    border-top: 1px solid $light-blue;
   }
 
   .footer-text__first {
@@ -32,7 +32,6 @@
 @media (min-width: 768px) {
   .footer-text {
     margin-top: 60px;
-    color: rgba(126, 126, 130, 1);
     height: 60px;
     position: relative;
     justify-content: space-between;

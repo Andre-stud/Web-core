@@ -1,88 +1,94 @@
 @media (min-width: 320px) {
-  .request-call {
+  .body-feedback {
     margin-left: 16px;
   }
 
-  .modal-request-call {
+  .modal-feedback {
     margin: 0px;
     padding: 0px;
     width: 320px;
     height: 676px;
     font-family: TT Lakes;
-    position: absolute;
     transition: all 1s ease;
-    background-color: white;
     z-index: 20;
+    background-color: $white;
+    position: absolute;
     right: -620px;
     opacity: 0;
   }
 
-  .request-call__cansel {
+  .cansel-feedback {
     margin-top: 24px;
   }
 
-  .request-call__header {
+  .header-feedback {
     margin-left: -16px;
     padding-left: 16px;
     font-size: 24px;
     font-weight: bold;
-    border-left: #41f6d7 4px solid;
+    border-left: $light-green 4px solid;
   }
 
   .entry-field {
-    color: black;
+    color: $black;
     font-size: 16px;
     width: 270px;
     height: 48px;
     border-radius: 8px;
-    border: 1px solid #eaeaea;
-    background: #ffffff;
+    border: 1px solid $light-gray;
+    background: $white;
     padding-left: 16px;
     margin-bottom: 16px;
     margin-right: 16px;
     font-family: TT Lakes;
   }
 
-  .request-call__terms {
-    color: #7e7e82;
+  .feedback-messege {
+    height: 118px;
+    resize: none;
+    padding-top: 10px;
+  }
+
+  .terms {
+    color: $light-gray;
     font-size: 14px;
     width: 288px;
   }
 
   .selection {
-    color: #ff3e79;
+    color: $pink;
     font-weight: 500;
   }
 
-  .request-call__button-submit {
+  .button-submit {
     font-size: 12px;
     width: 136px;
     height: 32px;
     border-radius: 16px;
-    background: #ff3e79;
-    color: #ffffff;
-    border: 1px solid #ff3e79;
+    background: $pink;
+    color: $white;
+    border: 1px solid $pink;
     margin-left: 152px;
   }
 }
 
 @media (min-width: 1366px) {
-  .modal-request-call {
+  .modal-feedback {
     width: 440px;
     height: 940px;
     margin-left: 31px;
-    border-left: 1px solid #d9fff5;
+    border-left: 1px solid $light-blue;
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
       16px 0px 52px rgba(14, 24, 80, 0.2);
   }
 
-  .request-call__cansel {
+  .cansel-feedback {
     position: absolute;
     left: -72px;
     top: 10px;
   }
 
-  .request-call__header {
+  .header-feedback {
     padding-left: 31px;
     margin-top: 40px;
   }
@@ -91,15 +97,37 @@
     width: 376px;
   }
 
-  .request-call__terms {
+  .terms {
     width: 376px;
   }
 
-  .request-call__button-submit {
+  .button-submit {
     margin-left: 241px;
   }
 }
 
-.request-call__button-submit:hover {
+.modal {
+  transition: all 1s ease;
+  z-index: 20;
+  transform: translateX(-620px);
+  opacity: 1;
+}
+
+.blur-box {
+  position: absolute;
+  background-color: $white;
+  z-index: -5;
+  opacity: 0;
+}
+
+.blur {
+  transition: all 1s ease;
+  opacity: 0.9;
+  z-index: 10;
+  width: 100%;
+  height: 1925px;
+}
+
+.button-submit:hover {
   opacity: 0.7;
 }

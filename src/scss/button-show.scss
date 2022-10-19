@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     border: none;
-    background-color: #f8f8f8;
+    background-color: $grey;
     width: 140px;
   }
 
@@ -27,6 +27,6 @@
 }
 
 .button-show:hover {
-  background-color: white;
+  background-color: $white;
   border-radius: 10px;
 }

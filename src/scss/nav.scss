@@ -1,5 +1,4 @@
 @media (min-width: 320px) {
-  
   .nav {
     display: flex;
     justify-content: space-between;
@@ -13,45 +12,47 @@
 
   .nav__link {
     text-decoration: none;
-    color: rgba(126, 126, 130, 1);
+    color: $light-gray;
   }
 
   .nav_active {
     font-size: 16px;
     order: -1;
     padding: 8px 9px 8px 16px;
-    border: solid 1px #b8ffec;
-    background-color: white;
+    border: solid 1px $light-green;
+    background-color: $white;
     border-radius: 6px;
   }
 
   .nav__item {
     font-size: 16px;
     margin-right: 20px;
-   
   }
 }
 
 .nav__item:hover {
   font-weight: medium;
-  color: black;
+  color: $black;
   text-decoration: underline;
 }
 
-
-.nav-menu ul {
-  padding: 0px;
-  margin-bottom: 268px;
+.nav-menu {
+  ul {
+    padding: 0px;
+    margin-bottom: 268px;
+  }
 }
 
-.nav-menu .nav-menu__link {
-  margin-bottom: 32px;
-  list-style-type: none;
+.nav-menu {
+  .nav-menu__link {
+    margin-bottom: 32px;
+    list-style-type: none;
+  }
 }
 
 .nav-menu__link .link {
   text-decoration: none;
-  color: black;
+  color: $black;
   margin-left: 24px;
   font-size: 16px;
   line-height: 24px;

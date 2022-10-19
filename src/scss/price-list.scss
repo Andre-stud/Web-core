@@ -1,7 +1,7 @@
 @media (min-width: 320px) {
   .service-header {
     font-size: 14px;
-    color: #7e7e82;
+    color: $light-gray;
   }
 
   .price-list-pad {
@@ -36,7 +36,7 @@
     height: 200px;
     margin-bottom: 36px;
     margin-right: 16px;
-    background-color: white;
+    background-color: $white;
     border-radius: 6px;
     position: relative;
     list-style: none;
@@ -47,9 +47,9 @@
     width: 119px;
     height: 32px;
     border-radius: 16px;
-    background: #ff3e79;
+    background: $pink;
     color: #ffffff;
-    border: 1px solid #ff3e79;
+    border: 1px solid $pink;
     position: absolute;
     right: 16px;
     bottom: 16px;
@@ -73,7 +73,7 @@
     padding-left: 16px;
     margin-left: 24px;
     margin-right: 24px;
-    color: rgba(126, 126, 130, 1);
+    color: $light-gray;
     font-size: 14px;
   }
 
@@ -96,7 +96,7 @@
 
   .cards-price-list {
     flex-direction: column;
-    background-color: white;
+    background-color: $white;
     padding-left: 16px;
     margin-left: 24px;
     margin-right: 24px;
@@ -111,7 +111,7 @@
     width: 100%;
     height: auto;
     border-radius: 0px;
-    border-bottom: 1px solid rgba(234, 234, 234, 1);
+    border-bottom: 1px solid $grey;
     margin-bottom: 0px;
     padding-top: 23px;
     padding-bottom: 23px;
@@ -148,7 +148,7 @@
 @media (min-width: 1366px) {
   .cards-price-list {
     flex-direction: column;
-    background-color: white;
+    background-color: $white;
     padding-left: 24px;
     margin-left: 32px;
     margin-right: 32px;

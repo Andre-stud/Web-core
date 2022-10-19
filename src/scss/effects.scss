@@ -6,8 +6,10 @@
   opacity: 0.7;
 }
 
-.nav-menu__link .link:hover {
-  text-decoration: underline;
+.nav-menu__link {
+  .link:hover {
+    text-decoration: underline;
+  }
 }
 
 .lang__button:hover {
@@ -16,7 +18,7 @@
 }
 
 .active {
-  color: #7e7e82;
+  color: $light-gray;
 }
 
 .button:hover {
@@ -27,4 +29,3 @@
   transform: rotate(180deg);
   transition: all 1s;
 }
-
