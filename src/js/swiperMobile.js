@@ -1,5 +1,5 @@
 // Swiper
-import Swiper from "../../node_modules/swiper";
+import { Swiper } from "../../node_modules/swiper";
 
 const slider = document.querySelector(".swiper");
 
