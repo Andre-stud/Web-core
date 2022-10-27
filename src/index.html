@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logotip.ico" type="image/x-icon" />
     <title>Услуги и сервисы</title>
   </head>
   <body>
@@ -13,7 +14,9 @@
         <button class="header-menu__cansel button">
           <img src="./img/cansel.svg" alt="menu" />
         </button>
-        <img class="header-menu__logo" src="./img/logo.svg" alt="logo" />
+        <a href="index.html"
+          ><img class="header-menu__logo" src="./img/logo.svg" alt="logo"
+        /></a>
         <button class="header-menu__search button">
           <img src="./img/search.svg" alt="search" />
         </button>
@@ -60,8 +63,8 @@
             <img src="./img/profile.svg" alt="profile" />
           </button>
         </div>
-        <a href="#" class="link">mail@cps.com</a>
-        <span class="phone">8 800 890 8900</span>
+        <a href="mail@cps.com" class="link">mail@cps.com</a>
+        <a href="tel:8 800 890 8900" class="phone">8 800 890 8900</a>
         <div class="lang">
           <button class="lang__button active">
             <span>RU</span>
@@ -149,27 +152,32 @@
 
     <section class="max-with">
       <header class="header">
-        <button class="header__button-menu button">
-          <img src="./img/burger.png" alt="menu" />
-        </button>
-        <img class="logo" src="./img/logo.svg" alt="logo" />
-        <img class="header__border" src="./img/border.svg" alt="" />
-        <span class="header__button-repair-text">Оставить заявку</span>
-        <button class="header__button-repair button">
-          <img
-            class="header__button-repair__img"
-            src="./img/repair.svg"
-            alt="repair"
-          />
-        </button>
-        <span class="header__button-checkstatus-text">Статус ремонта</span>
-        <button class="header__button-checkstatus button">
-          <img
-            class="header__button-checkstatus__img"
-            src="./img/checkstatus.png"
-            alt="checkstatus"
-          />
-        </button>
+        <div class="menu-box">
+          <button class="header__button-menu button">
+            <img src="./img/burger.svg" alt="menu" />
+          </button>
+        </div>
+        <a href="index.html"
+          ><img class="logo" src="./img/logo.svg" alt="logo"
+        /></a>
+        <div class="border-box">
+          <span class="header__button-repair-text">Оставить заявку</span>
+          <button class="header__button-repair button">
+            <img
+              class="header__button-repair__img"
+              src="./img/repair.svg"
+              alt="repair"
+            />
+          </button>
+          <span class="header__button-checkstatus-text">Статус ремонта</span>
+          <button class="header__button-checkstatus button">
+            <img
+              class="header__button-checkstatus__img"
+              src="./img/checkstatus.svg"
+              alt="checkstatus"
+            />
+          </button>
+        </div>
         <button class="header__button-call button">
           <img src="./img/call.svg" alt="call" />
         </button>
@@ -179,15 +187,13 @@
         <button class="header__button-profile button">
           <img src="./img/profile.svg" alt="profile" />
         </button>
-        <img class="header__border-two" src="./img/border.svg" alt="" />
       </header>
       <div class="title">
         <h1 class="title-text">Услуги и сервисы</h1>
       </div>
     </section>
-    <main class="main">
+    <main class="menu">
       <nav>
-        <div class="shadow"></div>
         <ul class="nav">
           <li class="nav__item">
             <a href="" class="nav__link">Ремонтируемые бренды</a>
@@ -207,37 +213,36 @@
           <li class="nav__item">
             <a href="" class="nav__link">Специальные цены</a>
           </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Отзывы</a>
+          </li>
         </ul>
       </nav>
-      <span class="reviews">Отзывы</span>
-      <div class="massege-list">
-        <article class="massege">
-          <p class="massege__first">
-            Мы являемся авторизованным сервисным центром по ремонту техники
-            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-            официальной гарантией производителя.
-          </p>
-          <p class="massege__second">
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера
-          </p>
-          <p class="massege__third">
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера, что подтверждает большое количество постоянных клиентов.
-            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-            очередь, советуют нас родным и близким.
-          </p>
-          <p class="massege__next-read">
-            Мы являемся авторизованным сервисным центром по ремонту техники
-            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-            официальной гарантией производителя.
-          </p>
-          <p class="massege__next-read">
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера, что подтверждает большое количество постоянных клиентов.
-            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-            очередь, советуют нас родным и близким.
-          </p>
+      <div class="message-list">
+        <article class="read-message">
+          <div class="message">
+            <p class="message__first">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+            <p class="message__second">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных клиентов.
+              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </p>
+            <p>
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.<br />Мы успешно работаем с
+              1992 года и заслужили репутацию надежного партнера, что
+              подтверждает большое количество постоянных клиентов. Мы гордимся
+              тем, что к нам обращаются по рекомендациям и, в свою очередь,
+              советуют нас родным и близким.
+            </p>
+          </div>
+
           <button class="button-next-read">
             <img
               class="button-next-read__icon"
@@ -251,10 +256,9 @@
       </div>
 
       <p class="name-cards">Ремонт техники различных брендов</p>
-      <div class="shadow-slide"></div>
       <div class="swiper" data-mobile="false">
         <ul class="swiper-wrapper cards-brends">
-          <li class="swiper-slide card-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="116"
               class="card__img"
@@ -270,7 +274,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="108"
               class="card__img"
@@ -286,7 +290,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="44"
               class="card__img"
@@ -302,7 +306,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="128"
               class="card__img"
@@ -318,7 +322,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="52"
               class="card__img"
@@ -334,7 +338,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="94"
               class="card__img"
@@ -350,7 +354,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends remove-pad-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="128"
               class="card__img"
@@ -366,7 +370,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-brends remove-pad-brends">
+          <li class="swiper-slide card-brend">
             <img
               width="128"
               class="card__img"
@@ -382,9 +386,7 @@
             </button>
           </li>
 
-          <li
-            class="swiper-slide card-brends remove-pad-brends remove-desctop-brends"
-          >
+          <li class="swiper-slide card-brend">
             <img class="card__img" src="./img/model/Lenovo.svg" alt="Lenovo" />
             <button class="button-card">
               <img
@@ -395,9 +397,7 @@
             </button>
           </li>
 
-          <li
-            class="swiper-slide card-brends remove-pad-brends remove-desctop-brends"
-          >
+          <li class="swiper-slide card-brend">
             <img
               class="card__img"
               src="./img/model/Samsung.svg"
@@ -412,9 +412,7 @@
             </button>
           </li>
 
-          <li
-            class="swiper-slide card-brends remove-pad-brends remove-desctop-brends"
-          >
+          <li class="swiper-slide card-brend">
             <img class="card__img" src="./img/model/Apple.svg" alt="Apple" />
             <button class="button-card">
               <img
@@ -437,7 +435,6 @@
       </button>
 
       <p class="name-cards">Ремонт различных видов техники</p>
-      <div class="shadow-type-equipment"></div>
       <div class="swiper" data-mobile="false">
         <ul class="swiper-wrapper cards-type-equipment">
           <li class="swiper-slide card-type-equipment">
@@ -473,7 +470,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-type-equipment remove-pad-equipment">
+          <li class="swiper-slide card-type-equipment">
             <span>Ремонт мониторов</span>
             <button class="button-card">
               <img
@@ -484,7 +481,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-type-equipment remove-desctop-equipment">
+          <li class="swiper-slide card-type-equipment">
             <span>Ремонт ноутбуков</span>
             <button class="button-card">
               <img
@@ -495,7 +492,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-type-equipment remove-desctop-equipment">
+          <li class="swiper-slide card-type-equipment">
             <span>Ремонт планшетов</span>
             <button class="button-card">
               <img
@@ -506,7 +503,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-type-equipment remove-desctop-equipment">
+          <li class="swiper-slide card-type-equipment">
             <span>Ремонт ПК</span>
             <button class="button-card">
               <img
@@ -517,7 +514,7 @@
             </button>
           </li>
 
-          <li class="swiper-slide card-type-equipment remove-desctop-equipment">
+          <li class="swiper-slide card-type-equipment">
             <span>Ремонт мониторов</span>
             <button class="button-card">
               <img
@@ -545,7 +542,6 @@
         <p class="price-list-pad__second">Цена</p>
         <p class="price-list-pad__third">Срок</p>
       </div>
-      <div class="shadow-price-list"></div>
       <div class="swiper" data-mobile="false">
         <ul class="swiper-wrapper cards-price-list">
           <li class="swiper-slide card-price-list">
@@ -668,7 +664,7 @@
         <div class="footer-text__first">
           <span>© 2019 CPS <br /></span> Разработано командой Apesong
         </div>
-        <div class="footer-text__second">Политика конфиденциальности</div>
+        <a href="#" class="footer-text__second">Политика конфиденциальности</a>
         <div class="footer-text__third">
           Информация, размещенная на данной странице, не является публичной
           офертой

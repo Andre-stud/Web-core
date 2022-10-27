@@ -1,0 +1,201 @@
+.service-header {
+  font-size: 14px;
+  color: $light-gray;
+}
+
+.price-list-pad {
+  display: none;
+}
+
+.discripton {
+  font-size: 14px;
+}
+
+.repair-services {
+  line-height: 1.4;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.price {
+  position: absolute;
+  top: 88px;
+  left: 16px;
+}
+
+.term {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.card-price-list {
+  max-width: 260px;
+  height: 200px;
+  margin-bottom: 36px;
+  margin-right: 16px;
+  background-color: $white;
+  border-radius: 6px;
+  position: relative;
+  list-style: none;
+}
+
+.card-price-list__button-order {
+  font-size: 12px;
+  width: 119px;
+  height: 32px;
+  border-radius: 16px;
+  background: $pink;
+  color: #ffffff;
+  border: 1px solid $pink;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+.card-price-list__button-order img {
+  margin-left: 8px;
+}
+
+.cards-price-list {
+  padding: 0px;
+  display: flex;
+  margin-left: 8px;
+}
+
+.cards-price-list::after {
+  content: "";
+  width: 24px;
+  height: 230px;
+  background: linear-gradient(
+    270deg,
+    $grey 16.84%,
+    rgba(248, 248, 248, 0.0001) 100%
+  );
+  position: absolute;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .price-list-pad {
+    position: relative;
+    display: flex;
+    padding-left: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: $light-gray;
+    font-size: 14px;
+  }
+
+  .price-list-pad__first {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
+  .price-list-pad__second {
+    position: absolute;
+    left: 52%;
+    bottom: -17px;
+  }
+
+  .price-list-pad__third {
+    position: absolute;
+    left: 67%;
+    bottom: -17px;
+  }
+
+  .cards-price-list {
+    flex-direction: column;
+    background-color: $white;
+    padding-left: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 95%;
+  }
+  .service-header {
+    display: none;
+  }
+
+  .card-price-list {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+    border-bottom: 1px solid $grey;
+    margin-bottom: 0px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+
+  .card-price-list:last-child {
+    border-bottom: none;
+  }
+
+  .repair-services {
+    line-height: 1.4;
+    position: static;
+  }
+
+  .price {
+    position: absolute;
+    left: 51%;
+    top: 23px;
+  }
+
+  .term {
+    position: absolute;
+    left: 67%;
+    top: 23px;
+  }
+
+  .card-price-list__button-order {
+    position: absolute;
+    right: 5%;
+    top: 31.5%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .cards-price-list {
+    flex-direction: column;
+    background-color: $white;
+    padding-left: 24px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .price {
+    position: absolute;
+    left: 57%;
+    top: 23px;
+  }
+
+  .term {
+    position: absolute;
+    left: 73%;
+    top: 23px;
+  }
+
+  .card-price-list__button-order {
+    position: absolute;
+    left: 87%;
+    top: 31.5%;
+  }
+
+  .price-list-pad__second {
+    position: absolute;
+    left: 59%;
+  }
+
+  .price-list-pad__third {
+    position: absolute;
+    left: 74.5%;
+  }
+}
+
+.card-price-list__button-order:hover {
+  opacity: 0.6;
+}

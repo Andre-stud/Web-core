@@ -1,23 +1,22 @@
-const massege = document.querySelectorAll(".massege__next-read");
+const message = document.querySelector(".message");
+const messageNextRead = "message__next-read";
 const button = document.querySelector(".button-next-read");
 const icon = document.querySelector(".button-next-read__icon");
 const text = document.querySelector(".button-next-read__text");
+export let showNext;
 
 button.addEventListener("click", function () {
-  clickButton();
-
-  icon.classList.toggle("rotate");
-
-  if (text.textContent === "Читать далее") {
-    text.textContent = "Скрыть";
-  } else {
-    text.textContent = "Читать далее";
-  }
+  showNext(message, messageNextRead, icon, text);
 });
 
-function clickButton() {
-  for (let i = 0; i < massege.length; i++) {
-    massege[i].classList.toggle("massege__next-read");
-    massege[i].classList.toggle("card-show");
+showNext = function (content, classAdd, showIcon, showText) {
+  content.classList.toggle(classAdd);
+
+  showIcon.classList.toggle("rotate");
+
+  if (showText.textContent === "Читать далее") {
+    showText.textContent = "Скрыть";
+  } else {
+    showText.textContent = "Читать далее";
   }
-}
+};

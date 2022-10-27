@@ -3,31 +3,28 @@ const headerButtonCall = document.querySelector(".header__button-call");
 export const modalRequestCall = document.querySelector(".modal-request-call");
 const requestCallCansel = document.querySelector(".request-call__cansel");
 const blureBoxCall = document.querySelector(".blur-box");
+const autoFocus = document.querySelector(".entry-field");
 
 import { modalFeedback } from "./modalFeedback.js";
 import { clickButtonMenu } from "./mainMenu.js";
+import { clickButton } from "./modalFeedback.js";
+import { canselButton } from "./modalFeedback.js";
+import { blureButton } from "./modalFeedback.js";
 
 footerButtonCall.addEventListener("click", function () {
-  modalFeedback.classList.remove("modal");
-  modalRequestCall.classList.add("modal");
-  blureBoxCall.classList.add("blur");
+  clickButton(modalFeedback, modalRequestCall, blureBoxCall);
+  autoFocus.select();
 });
 
 headerButtonCall.addEventListener("click", function () {
-  modalRequestCall.classList.add("modal");
-  blureBoxCall.classList.add("blur");
+  clickButton(modalFeedback, modalRequestCall, blureBoxCall);
+  autoFocus.select();
 });
 
 requestCallCansel.addEventListener("click", function () {
-  if (clickButtonMenu == true) {
-    modalRequestCall.classList.remove("modal");
-  } else {
-    blureBoxCall.classList.remove("blur");
-    modalRequestCall.classList.remove("modal");
-  }
+  canselButton(modalRequestCall, blureBoxCall);
 });
 
 blureBoxCall.addEventListener("click", function () {
-  modalRequestCall.classList.remove("modal");
-  blureBoxCall.classList.remove("blur");
+  blureButton(modalRequestCall, blureBoxCall);
 });

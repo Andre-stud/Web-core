@@ -25,3 +25,13 @@ blureBoxMain.addEventListener("click", function () {
   blureBoxMain.classList.remove("blur");
   clickButtonMenu = false;
 });
+
+document.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
+    mainMenu.classList.remove("modal-menu");
+    blureBoxMain.classList.remove("blur");
+    modalRequestCall.classList.remove("modal");
+    modalFeedback.classList.remove("modal");
+    clickButtonMenu = false;
+  }
+});

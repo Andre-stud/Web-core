@@ -1,5 +1,5 @@
-// Swiper
-import { Swiper } from "../../node_modules/swiper";
+import Swiper from "swiper";
+import { Pagination } from "swiper";
 
 const slider = document.querySelector(".swiper");
 
@@ -7,11 +7,11 @@ let mySwiper;
 
 function mobileSlider() {
   if (window.innerWidth < 768 && slider.dataset.mobile == "false") {
+    Swiper.use([Pagination]);
     mySwiper = new Swiper(".swiper", {
       loop: true,
       grabCursor: true,
 
-      // If we need pagination
       pagination: {
         el: ".swiper-pagination",
       },
@@ -24,10 +24,10 @@ function mobileSlider() {
   }
 
   if (window.innerWidth >= 768) {
-    slider.dataset.mobile = "false";
-    if (slider.classList.contains("swiper-initialized")) {
+    if (slider.dataset.mobile == "true") {
       mySwiper.destroy();
     }
+    slider.dataset.mobile = "false";
   }
 }
 

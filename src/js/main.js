@@ -7,4 +7,4 @@ import "./buttonShowTypeEquipment.js";
 import "./modalRequestCall.js";
 import "./modalFeedback.js";
 import "./mainMenu.js";
-import "../fonts/stylesheet.scss";
+import "../scss/stylesheet.scss";

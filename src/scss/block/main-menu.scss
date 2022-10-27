@@ -1,0 +1,42 @@
+.main-menu {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  float: left;
+  position: absolute;
+  transition: all 1s ease;
+  z-index: 15;
+  left: -350px;
+  height: 676px;
+  box-shadow: 16px 0px 52px $shadow-color;
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    height: 725px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .main-menu {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    position: static;
+    height: 1930px;
+  }
+}
+
+.modal-menu {
+  transition: all 1s ease;
+  background-color: $white;
+  transform: translateX(350px);
+}
+
+.blure {
+  transition: all 1s ease;
+  opacity: 0.1;
+  background-color: $white;
+}

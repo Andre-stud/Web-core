@@ -1,0 +1,30 @@
+.button-next-read {
+  display: flex;
+  border: none;
+  background-color: $grey;
+  max-width: 170px;
+}
+
+.button-next-read__icon {
+  margin: 20px 16px 0px 10px;
+  transform: rotate(0deg);
+  transition: all 1s;
+}
+
+.button-next-read__text {
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+@media (min-width: 1366px) {
+  .button-next-read__icon {
+    margin-left: 0px;
+  }
+}
+
+.button-next-read:hover {
+  background-color: $white;
+  border-radius: 10px;
+}
