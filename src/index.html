@@ -52,30 +52,43 @@
         </nav>
       </div>
       <footer>
-        <div class="footer-button">
-          <button class="footer-button__call button">
-            <img src="./img/call.svg" alt="call" />
-          </button>
-          <button class="footer-button__chat button">
-            <img src="./img/chat.svg" alt="chat" />
-          </button>
-          <button class="footer-button__profile button">
-            <img src="./img/profile.svg" alt="profile" />
-          </button>
-        </div>
+        <ul class="footer-button">
+          <li>
+            <button class="footer-button__call button">
+              <img src="./img/call.svg" alt="call" />
+            </button>
+          </li>
+          <li>
+            <button class="footer-button__chat button">
+              <img src="./img/chat.svg" alt="chat" />
+            </button>
+          </li>
+          <li>
+            <button class="footer-button__profile button">
+              <img src="./img/profile.svg" alt="profile" />
+            </button>
+          </li>
+        </ul>
+
         <a href="mail@cps.com" class="link">mail@cps.com</a>
         <a href="tel:8 800 890 8900" class="phone">8 800 890 8900</a>
-        <div class="lang">
-          <button class="lang__button active">
-            <span>RU</span>
-          </button>
-          <button class="lang__button">
-            <span>EN</span>
-          </button>
-          <button class="lang__button">
-            <span>CH</span>
-          </button>
-        </div>
+        <ul class="lang">
+          <li>
+            <button class="lang__button active">
+              <span>RU</span>
+            </button>
+          </li>
+          <li>
+            <button class="lang__button">
+              <span>EN</span>
+            </button>
+          </li>
+          <li>
+            <button class="lang__button">
+              <span>CH</span>
+            </button>
+          </li>
+        </ul>
       </footer>
     </div>
 
@@ -111,32 +124,43 @@
           <img src="img/cansel.svg" alt="cansel" />
         </button>
         <p class="header-feedback">Обратная связь</p>
-        <input
-          class="entry-field"
-          type="text"
-          placeholder="Имя"
-          name="input"
-          value=""
-        />
-        <input
-          class="entry-field"
-          type="tel"
-          placeholder="Телефон"
-          name="input"
-          value=""
-        />
-        <input
-          class="entry-field"
-          type="email"
-          placeholder="Электронная почта"
-          name="input"
-          value=""
-        />
-        <textarea
-          class="entry-field feedback-messege"
-          name="text"
-          placeholder="Сообщение"
-        ></textarea>
+        <ul class="input">
+          <li>
+            <input
+              class="entry-field"
+              type="text"
+              placeholder="Имя"
+              name="input"
+              value=""
+            />
+          </li>
+          <li>
+            <input
+              class="entry-field"
+              type="tel"
+              placeholder="Телефон"
+              name="input"
+              value=""
+            />
+          </li>
+          <li>
+            <input
+              class="entry-field"
+              type="email"
+              placeholder="Электронная почта"
+              name="input"
+              value=""
+            />
+          </li>
+          <li>
+            <textarea
+              class="entry-field feedback-messege"
+              name="text"
+              placeholder="Сообщение"
+            ></textarea>
+          </li>
+        </ul>
+
         <p class="terms">
           Нажимая “отправить”, вы даете согласие на
           <a href="#" class="selection">обработку персональных данных</a> и
