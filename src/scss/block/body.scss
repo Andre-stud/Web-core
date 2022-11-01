@@ -4,3 +4,6 @@ body {
   min-width: 320px;
   background-color: $grey;
 }
+.overflow-body {
+  overflow-y: hidden;
+}

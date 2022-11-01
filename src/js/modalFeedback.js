@@ -7,6 +7,7 @@ const autoFocus = modalFeedback.querySelectorAll(".entry-field");
 
 import { modalRequestCall } from "./modalRequestCall.js";
 import { clickButtonMenu } from "./mainMenu.js";
+import { body } from "./mainMenu.js";
 
 export let clickButton = function (removeModal, addModal, addBlure) {
   removeModal.classList.remove("modal");
@@ -35,12 +36,15 @@ footerButtonChat.addEventListener("click", function () {
 
 headerButtonChat.addEventListener("click", function () {
   clickButton(modalRequestCall, modalFeedback, blureBox);
+  body.classList.add("overflow-body");
 });
 
 canselFeedback.addEventListener("click", function () {
   canselButton(modalFeedback, blureBox);
+  body.classList.remove("overflow-body");
 });
 
 blureBox.addEventListener("click", function () {
+  body.classList.remove("overflow-body");
   blureButton(modalFeedback, blureBox);
 });

@@ -8,14 +8,8 @@
   transition: all 1s ease;
   z-index: 15;
   left: -350px;
-  height: 676px;
+  height: 100%;
   box-shadow: 16px 0px 52px $shadow-color;
-}
-
-@media (min-width: 768px) {
-  .main-menu {
-    height: 725px;
-  }
 }
 
 @media (min-width: 1366px) {

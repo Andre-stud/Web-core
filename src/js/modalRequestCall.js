@@ -10,6 +10,7 @@ import { clickButtonMenu } from "./mainMenu.js";
 import { clickButton } from "./modalFeedback.js";
 import { canselButton } from "./modalFeedback.js";
 import { blureButton } from "./modalFeedback.js";
+import { body } from "./mainMenu.js";
 
 footerButtonCall.addEventListener("click", function () {
   clickButton(modalFeedback, modalRequestCall, blureBoxCall);
@@ -19,12 +20,15 @@ footerButtonCall.addEventListener("click", function () {
 headerButtonCall.addEventListener("click", function () {
   clickButton(modalFeedback, modalRequestCall, blureBoxCall);
   autoFocus.select();
+  body.classList.add("overflow-body");
 });
 
 requestCallCansel.addEventListener("click", function () {
   canselButton(modalRequestCall, blureBoxCall);
+  body.classList.remove("overflow-body");
 });
 
 blureBoxCall.addEventListener("click", function () {
   blureButton(modalRequestCall, blureBoxCall);
+  body.classList.remove("overflow-body");
 });
